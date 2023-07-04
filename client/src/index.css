@@ -1,0 +1,46 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;500;600&family=Raleway:wght@100;200;300;400;500;600;700&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background: #252836;
+}
+
+/* add classname to make block element centered */
+.center {
+  margin: 0 auto;
+}
+.login {
+  margin-top: 80px;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  align-items: center;
+}
+img.imagelogo {
+  display: block;
+  aspect-ratio: 1/1;
+  width: 200px;
+  margin: 0 auto 10px;
+}
+.nav-notfound p a:first-child::after {
+  content: "OR";
+  color: #fff;
+}
+.img-container {
+  aspect-ratio: 1/1;
+  width: 200px;
+  border: 1px solid blue;
+  margin: 20px auto;
+  border-radius: 20px;
+}
+
+/* verified */
+
+
+
+
